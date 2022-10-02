@@ -13,11 +13,13 @@ body {
 }
 
 ul {
-    list-style: disc
+    list-style: disc;
+    margin: 0 1em;
 }
 
 ol {
-    list-style-type: decimal
+    list-style-type: decimal;
+    margin: 0 1em;
 }
 
 input:-internal-autofill-selected {
@@ -1125,7 +1127,8 @@ a {
 .commentEmptyImg {
     width: 90px;
     margin-bottom: 16px;
-    margin-top: 10px
+    margin-top: 10px;
+    filter: invert(1) hue-rotate(180deg)
 }
 
 .topicHead.halfBottom.topicSearch.ency {
@@ -1301,7 +1304,8 @@ a {
 
 .label {
     width: 32px;
-    margin-right: 4px
+    margin-right: 4px;
+    filter: drop-shadow(1px 1px 1px #aaa)
 }
 
 .backTop {
@@ -2525,7 +2529,7 @@ textarea {
 
 .subtitle {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     margin: 36px 0
 }
 
@@ -3937,4 +3941,8 @@ textarea {
 
 .musicVoteItem .voteNum[data-v-603352d8] {
     color: #333
+}
+
+.quizEmptyImg[data-v-931dfd4e] {
+    filter: hue-rotate(180deg) invert(1)
 }
