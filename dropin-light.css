@@ -894,7 +894,7 @@ a {
 .resultName {
     display: flex;
     align-items: center;
-    font-weight: 500
+    font-weight: 400
 }
 
 .rightMsg.noBrief {
@@ -1078,6 +1078,14 @@ a {
     display: none;
     cursor: auto;
     transition: all .5s 2s
+}
+
+.sortTypeHover {
+    background: #cecece
+}
+
+.sortTypeItem {
+    color: hsla(0, 0%, 0%, .5)
 }
 
 .encyTabHover.sort {
@@ -1314,7 +1322,7 @@ a {
     background: #c0c0c0;
     text-align: center;
     line-height: 40px;
-    font-weight: 500;
+    font-weight: 400;
     color: #545454;
     font-weight: 600;
     font-size: 16px;
@@ -1385,7 +1393,7 @@ a {
     display: block
 }
 
-.tab.ency:hover {
+.tab.ency:hover, .sortType:hover {
     border-radius: 4px 4px 0 0;
     background: #cecece
 }
@@ -1467,7 +1475,7 @@ html {
 }
 
 .bold {
-    font-weight: 500
+    font-weight: 700
 }
 
 .headMore {
@@ -1528,27 +1536,6 @@ html {
 
 .websiteInfo a:hover {
     color: #7023e5
-}
-
-.hoverInfo {
-    cursor: pointer;
-    position: relative
-}
-
-.hoverInfo img {
-    display: none;
-    position: absolute;
-    width: 150px;
-    z-index: 1000;
-    right: -35px
-}
-
-.hoverInfo:hover {
-    color: #7023e5
-}
-
-.hoverInfo:hover img {
-    display: block
 }
 
 .webHeaderPlaceholder {
@@ -1638,7 +1625,7 @@ html {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     padding: 10px 0
 }
 
@@ -1654,7 +1641,7 @@ html {
     margin: 20px auto;
     text-align: center;
     line-height: 38px;
-    font-weight: 500;
+    font-weight: 400;
     color: #000
 }
 
@@ -1745,7 +1732,7 @@ html {
 .el-dialog__header {
     text-align: center;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     color: #FFF
 }
 
@@ -1937,7 +1924,7 @@ html {
 .el-dialog__body {
     font-size: 16px;
     color: #000;
-    font-weight: 500
+    font-weight: 400
 }
 
 .el-dialog--center .el-dialog__body {
@@ -2790,7 +2777,7 @@ textarea {
     width: 593px
 }
 
-.cityFilter[data-v-a8ce363a] {
+.cityFilter[data-v-a8ce363a], .cityFilter[data-v-0fdcf87e] {
     width: 1200px;
     background: #fff;
     height: 48px;
@@ -3423,7 +3410,7 @@ textarea {
     font-weight: 400
 }
 
-.submitBtn[data-v-06e0cd22] {
+.submitBtn[data-v-06e0cd22], .submitBtn[data-v-534f5c81] {
     width: 300px;
     height: 44px;
     background: #7023e5;
@@ -3515,7 +3502,7 @@ textarea {
 
 .rankList[data-v-06e0cd22] {
     font-size: 15px;
-    font-weight: 500
+    font-weight: 400
 }
 
 .voteItem[data-v-06e0cd22] {
@@ -3771,7 +3758,7 @@ textarea {
     height: 44px;
     border-radius: 25px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     border: none
 }
 
@@ -3822,7 +3809,7 @@ textarea {
     color: #fff;
     padding-bottom: 10px;
     position: relative;
-    font-weight: 500
+    font-weight: 400
 }
 
 .active[data-v-35dce6ce]:after {
@@ -3897,7 +3884,7 @@ textarea {
 }
 
 .musicVoteItem[data-v-603352d8] {
-    background: #eee;
+    background: linear-gradient(0.25turn, #666 0%, #ccc 25%, #eee 100%);
     border: 0px;
     border-radius: 6px;
 }
@@ -3912,7 +3899,7 @@ textarea {
 
 .musicVoteItem .musicArtist[data-v-603352d8] {
     color: #333;
-    font-weight: 500
+    font-weight: 400
 }
 
 .musicRank[data-v-603352d8] {
@@ -3932,11 +3919,11 @@ textarea {
 }
 
 .nominateName .nickname {
-    font-weight: 500
+    font-weight: 400
 }
 
 .musicDetDialog .el-table__body {
-    font-weight: 500
+    font-weight: 400
 }
 
 .musicVoteItem .voteNum[data-v-603352d8] {
@@ -3945,4 +3932,13 @@ textarea {
 
 .quizEmptyImg[data-v-931dfd4e] {
     filter: hue-rotate(180deg) invert(1)
+}
+
+.addEncy.el-button[data-v-534f5c81] {
+    color: #666
+}
+
+.sortType img {
+    transform: rotate(1turn);
+    filter: invert(1)
 }
