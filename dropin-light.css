@@ -2249,7 +2249,7 @@ textarea {
     margin-right: 6px
 }
 
-.topicHeadBlock[data-v-1ff7fdb5] {
+.topicHeadBlock[data-v-1ff7fdb5], .topicHeadBlock[data-v-3f0af6ee] {
     width: 100%;
     background: #fff;
     border-radius: 4px;
