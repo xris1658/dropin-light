@@ -675,7 +675,7 @@ a {
 }
 
 .musicName {
-    font-size: 14px
+    font-size: 14px;
 }
 
 .musicInfo {
@@ -684,8 +684,9 @@ a {
 }
 
 .musicArtist {
-    color: #ccc;
-    font-size: 13px
+    color: #888;
+    font-weight: 400;
+
 }
 
 .refresh {
@@ -3897,8 +3898,7 @@ textarea {
     color: #000
 }
 
-.musicVoteItem .musicArtist[data-v-603352d8] {
-    color: #333;
+.musicVoteItem .musicArtist[data-v-00ae3468] {
     font-weight: 400
 }
 
@@ -3946,4 +3946,8 @@ textarea {
 .musicVoteList[data-v-603352d8] {
     width: 700px;
     margin-bottom: 20px;
+}
+
+.musicName[data-v-00ae3468] {
+    color: #fff
 }
