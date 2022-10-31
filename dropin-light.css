@@ -3930,7 +3930,7 @@ textarea {
     color: #333
 }
 
-.quizEmptyImg[data-v-931dfd4e] {
+.quizEmptyImg[data-v-931dfd4e], .quizEmptyImg[data-v-38f80d8f] {
     filter: hue-rotate(180deg) invert(1)
 }
 
