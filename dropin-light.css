@@ -2144,7 +2144,7 @@ textarea {
     color: #7023e5
 }
 
-.signalBtn[data-v-6c79ffd0], .signalBtn[data-v-7d5f7ab4], .signalBtn[data-v-68426cd6] {
+.signalBtn[data-v-6c79ffd0], .signalBtn[data-v-7d5f7ab4], .signalBtn[data-v-68426cd6], .signalBtn[data-v-196d889a] {
     display: flex;
     align-items: center;
     position: sticky;
@@ -3950,4 +3950,12 @@ textarea {
 
 .musicName[data-v-00ae3468] {
     color: #fff
+}
+
+blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eee;
 }
