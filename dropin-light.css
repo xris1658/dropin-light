@@ -2435,13 +2435,6 @@ textarea {
     margin-top: 147px
 }
 
-.cirleIcon {
-    width: 14px;
-    height: 14px;
-    border: 5px solid #7023e5;
-    border-radius: 50%
-}
-
 .story {
     display: flex;
     align-items: center;
