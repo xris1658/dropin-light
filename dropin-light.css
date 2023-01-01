@@ -1672,7 +1672,8 @@ html {
 
 .hotEventCity img {
     width: 12px;
-    margin-right: 4px
+    margin-right: 4px;
+    filter: invert()
 }
 
 .hotEventCity {
