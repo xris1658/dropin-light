@@ -1118,7 +1118,7 @@ a {
 .detailTitle.textOverflow.scrollSticky {
     margin: 15px 37px;
     width: 762px;
-    color: #FFF
+    color: #000
 }
 
 .tabSticky.topic.scrollSticky {
@@ -3953,4 +3953,8 @@ blockquote {
     padding-left: 10px;
     padding-right: 10px;
     background-color: #eee;
+}
+
+.scrollSticky {
+    background-color: #fff
 }
