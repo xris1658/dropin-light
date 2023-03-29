@@ -3965,3 +3965,7 @@ blockquote {
 .scrollSticky {
     background-color: #fff
 }
+
+.headOption .fold {
+    filter: invert()
+}
