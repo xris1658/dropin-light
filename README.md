@@ -2,6 +2,8 @@
 
 基于网站原有样式文件修改的浅色主题。
 
+创作后台深色主题（施工中）：[GitHub](https://github.com/xris1658/dropin-creator-dark) / [Gitee](https://gitee.com/xris1658/dropin-creator-dark)
+
 ## 用法
 1. 为浏览器安装插件 Stylish。
     - [Google Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe)
