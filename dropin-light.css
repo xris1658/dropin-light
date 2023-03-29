@@ -2543,9 +2543,11 @@ textarea {
 
 .aboutP img {
     width: 100%;
-    font-size: 15px;
-    color: #262626;
-    background-color: #131313
+    font-size: 15px
+}
+
+.aboutP .imgCut[data-v-b254fb88] {
+    content: url("https://creator.hearinmusic.com/static/img/top_logo.c99a9d2a.png")
 }
 
 .line {
@@ -2582,7 +2584,8 @@ textarea {
 }
 
 .aboutLogo {
-    width: 536px
+    width: 350px;
+    height: 84px
 }
 
 .imgCut[data-v-a8ce363a] {
