@@ -180,3 +180,7 @@ html[data-theme="light"] .rightItem.halfBottom.news:hover .infoItemText.textOver
     font-weight: 400;
     color: var(--color-80)
 }
+
+html[data-theme="light"] .encyItem.relativeLink[data-v-e81e1324] {
+    background: #f7f7f7
+}
