@@ -164,3 +164,19 @@ html[data-theme="light"] .rightItem.halfBottom.news:first-child .infoItemText.te
 html[data-theme="light"] .rightItem.halfBottom.news:hover .infoItemText.textOverflow {
     color:var(--link-color)!important
 }
+
+.aboutLogo[data-v-a315db20] {
+    width: 352px;
+    height: 84px
+}
+
+.aboutLogo > .imgCut[data-v-a315db20] {
+    content: url("https://hearinmusic.com/img/DPlogo2.c203d49c.png");
+    width: 352px;
+    height: 84px
+}
+
+.memberBrief {
+    font-weight: 400;
+    color: var(--color-80)
+}
