@@ -154,13 +154,13 @@ html[data-theme="light"] .setPwDialog .el-input .el-input__inner {
 }
 
 html[data-theme="light"] .rightItem.halfBottom.news:hover .infoItemText.textOverflow {
- color:#7023e5
+    color:var(--link-color)
 }
 
 html[data-theme="light"] .rightItem.halfBottom.news:first-child .infoItemText.textOverflow {
- color:#7023e5
+    color:var(--link-color)
 }
 
 html[data-theme="light"] .rightItem.halfBottom.news:hover .infoItemText.textOverflow {
- color:#7023e5!important
+    color:var(--link-color)!important
 }
