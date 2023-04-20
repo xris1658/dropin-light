@@ -165,9 +165,15 @@ html[data-theme="light"] .rightItem.halfBottom.news:hover .infoItemText.textOver
     height: 84px
 }
 
-.aboutLogo > .imgCut[data-v-a315db20] {
+html[data-theme="light"] .aboutLogo > .imgCut[data-v-a315db20] {
     content: url("https://hearinmusic.com/img/DPlogo2.c203d49c.png");
     width: 352px;
+    height: 84px
+}
+
+.aboutLogo > .imgCut[data-v-a315db20] {
+    content: url("https://hearinmusic.com/img/DPlogo.c676e9eb.png");
+    width: 350px;
     height: 84px
 }
 
