@@ -183,3 +183,8 @@ html[data-theme="light"] .encyItem.relativeLink[data-v-e81e1324] {
 html[data-theme="light"] .musicArtist[data-v-5a12ca72] {
     color: #fff
 }
+
+html[data-theme="light"] .el-popover {
+    background: var(--background-color);
+    color: var(--font-color)
+}
