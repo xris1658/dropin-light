@@ -87,8 +87,7 @@ html[data-theme="light"] .baike-box.dark-mode, html[data-theme="light"] .music-b
 html[data-theme="light"] #logo {
     content: url("https://hearinmusic.com/img/DPlogo2.c203d49c.png")
 }
-
-.hotEventCity img {
+html[data-theme="light"] .hotEventCity img {
     filter: invert(1)
 }
 
@@ -123,10 +122,6 @@ html[data-theme="light"] #logo {
 
 .submitBtn[data-v-1242f976]:hover, .el-button--primary:focus, .el-button--primary:hover, .voteBtn:hover {
     background-color: #bc96f2
-}
-
-html[data-theme="light"] .searchEmptyImg, html[data-theme="light"] .quizEmptyImg {
-    filter: invert(1) hue-rotate(180deg)
 }
 
 .musicName {
@@ -183,4 +178,8 @@ html[data-theme="light"] .rightItem.halfBottom.news:hover .infoItemText.textOver
 
 html[data-theme="light"] .encyItem.relativeLink[data-v-e81e1324] {
     background: #f7f7f7
+}
+
+html[data-theme="light"] .musicArtist[data-v-5a12ca72] {
+    color: #fff
 }
