@@ -194,3 +194,40 @@ html[data-theme="light"] .el-popover {
     background: var(--background-color);
     color: var(--font-color)
 }
+
+.musicInfo .textOverflow {
+    color: #fff
+}
+
+html[data-theme="light"] .musicInfo[data-v-64261740] .textOverflow {
+    color: var(--font-color)
+}
+
+.musicDetDialog .el-dialog__headerbtn:hover .el-dialog__close {
+    background-color: var(--background-color-item-hover)
+}
+
+.el-year-table td.disabled .cell, .el-month-table td.disabled .cell, .el-date-table td.disabled div,.el-year-table td.disabled .cell:hover, .el-month-table td.disabled .cell:hover, .el-date-table td.disabled div:hover {
+    background-color: transparent;
+    color: var(--color-50)
+}
+
+.el-year-table td .cell, .el-month-table td .cell, .el-date-table td div {
+    color: var(--font-color)
+}
+
+.el-popper[x-placement^="bottom"] {
+    background: #292929
+}
+
+html[data-theme="light"] .el-popper[x-placement^="bottom"] {
+    background: var(--background-color)
+}
+
+.el-date-picker__header-label, .el-picker-panel__icon-btn {
+    color: var(--font-color)
+}
+
+.el-date-table th {
+    color: var(--font-color)
+}
