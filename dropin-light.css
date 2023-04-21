@@ -231,3 +231,7 @@ html[data-theme="light"] .el-popper[x-placement^="bottom"] {
 .el-date-table th {
     color: var(--font-color)
 }
+
+html[data-theme="light"] .eventDet[data-v-afa02994] img {
+    filter: invert(1)
+}
