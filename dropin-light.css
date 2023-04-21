@@ -100,7 +100,7 @@ html[data-theme="light"] .hotEventCity img {
     justify-content: center;
 }
 
-.fold {
+html[data-theme="light"] .fold {
     filter: invert(1)
 }
 
